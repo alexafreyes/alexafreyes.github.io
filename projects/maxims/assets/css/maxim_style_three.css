@@ -1,0 +1,55 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+      height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+        
+}
+
+
+
+p {
+    font-size: 50px;
+    color: black;
+    font-family: "Arial", sans-serif;
+}
+
+.zoom {
+    animation-name: zoom;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes zoom {
+    0% {
+       margin-left: -2000px;
+    }
+    50% {
+        margin-left: 2000px;
+    }
+    100% {
+        color: red;
+        margin-left: -2000px;
+    }
+}
+
+.home{
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+}
+.next{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}

@@ -1,0 +1,73 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  
+        
+}
+
+.row {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+p {
+    font-size: 4em;
+    color: black;
+    font-family: "Arial", sans-serif;
+}
+
+.emphasis {
+    animation-name: emphasis;
+    animation-iteration-count: infinite;
+    animation-duration: .5s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+#rotate{
+      animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-duration: .5s;
+    animation-direction:alternate;
+}
+
+@keyframes emphasis {
+    0% {
+        color: black;
+        transform: rotate(-45deg)
+    }
+    100% {
+        color: yellow;
+        font-size: 200px;
+        transform: rotate(45deg)
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(45deg)
+    }
+}
+
+
+.home{
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+}
+.next{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}

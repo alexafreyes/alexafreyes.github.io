@@ -1,0 +1,121 @@
+body {
+    background-color: #FFF5F6;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+    color: #580007;
+}
+
+h1 {
+    text-align: center;
+  font-family: 'Sail', cursive;
+    font-size: 80px;
+    color: #af291e;
+    margin: 35px;
+    margin-bottom: 10px;
+}
+
+h2{
+    text-align: center;
+    margin:auto;
+    margin-top: 35px;
+    font-family: 'Sail', cursive;
+    font-size: 55px;
+    color: #af291e;
+    margin-bottom: 15px;
+    max-width: 1000px;
+    
+}
+
+.right-h2{
+     margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+p{
+    max-width: 400px;
+    text-align: left;
+}
+
+.second-p{
+    text-indent: 30px;
+}
+
+img {
+    width: 400px;
+    margin: 5px;
+}
+
+nav {
+    text-align: center;
+
+}
+
+ul {
+    /*   to get rid of the bullets in the list */
+    list-style-type: none;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+li {
+    /*    To have them go next to each other*/
+    display: inline-block;
+    /*    to give space around them*/
+    margin: 15px;
+}
+
+/* unvisited link */
+a:link {
+    color: #af291e;
+    text-decoration: none
+}
+
+/* visited link */
+a:visited {
+    color: #af291e;
+}
+
+a:hover {
+    color: #e5665a;
+}
+
+.sec-img{
+    width:60px;
+    position: fixed;
+    left:0px;
+    top:0px;
+    margin: 20px;
+}
+
+.home-img{
+    width:200px;
+    text-align: center;
+    margin: 45px;
+}
+
+.sec-nav{
+    font-size: 16px;
+    position: fixed;
+    bottom: 0px;
+    margin: -20px;
+}
+
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.item {
+  width: 350px;
+  height: 350px;
+    padding: 20px;
+    align-content: center;
+    
+}
+
