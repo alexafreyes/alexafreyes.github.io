@@ -36,6 +36,10 @@ p {
     max-width: 400px;
     text-align: left;
 }
+.center{
+    display: block;
+    margin: auto;
+}
 
 .second-p {
     text-indent: 30px;
