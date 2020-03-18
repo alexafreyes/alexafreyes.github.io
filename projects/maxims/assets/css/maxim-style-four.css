@@ -1,0 +1,161 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  text-align: center;
+    background-image: url("../imgs/milkshake.gif");
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+img{
+    width: 140px;
+}
+
+.heart-eyes-one{
+    position: absolute;
+    left:0px;
+    top:-30vh;  
+    animation-delay: 3s;
+}
+
+.heart-eyes-two{
+    position: absolute;
+    left:300px;
+    top:-30vh;  
+    animation-delay: .5s;
+}
+
+.heart-eyes-three{
+    position: absolute;
+    left:600px;
+    top:-30vh;  
+    animation-delay: 1s;
+}
+
+.heart-one{
+    position: absolute;
+    left:150px;
+    top:-30vh;  
+    animation-delay: 0s;
+    
+}
+
+.heart-two{
+    position: absolute;
+    left:450px;
+    top:-30vh;  
+    animation-delay: 4s;
+}
+
+.heart-three{
+    position: absolute;
+    left:750px;
+    top:-30vh;  
+    animation-delay: 2.5s;
+}
+
+.heart-four{
+    position: absolute;
+    left:900px;
+    top:-30vh;  
+    animation-delay: 3.5s
+}
+
+.heart-eyes-four{
+    position: absolute;
+    left:1150px;
+    top:-30vh;  
+    animation-delay: 4.3s;
+}
+
+.heart-eyes-five{
+    position: absolute;
+    left:1300px;
+    top:-30vh;  
+    animation-delay: 1.2s;
+}
+
+.container{
+    z-index: 1;
+}
+
+.other-container{
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    font-family: 'Red Hat Display', sans-serif;
+    color: hotpink;
+    font-size: 30px;
+}
+
+
+p {
+    font-size: 4em;
+    color: lightpink;
+font-family: 'Modak', cursive;
+    padding: 0px;
+    margin:-35px;
+}
+
+.thick {
+    animation-name: emphasis;
+    animation-iteration-count: infinite;
+    animation-duration: .5s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+.fall{
+      animation-name: fall;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: normal;
+    animation-timing-function: ease;
+}
+
+@keyframes emphasis {
+    0% {
+        color: lightpink;
+        letter-spacing: 0px;
+        font-size:180px;
+    }
+    100% {
+        color: red;
+        font-size: 200px;
+        letter-spacing: 55px;
+    }
+}
+
+@keyframes fall {
+    0% {
+        top: -30vh;
+    }
+    100%{
+        top:200vh;
+    }
+}
+
+
+.home{
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+}
+.next{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}

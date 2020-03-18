@@ -9,23 +9,37 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  
+  background-image: url("../imgs/scroll.gif");
+    background-repeat: repeat-x;
+    background-size: 30%;
+    font-family:  'Red Hat Display', sans-serif;
         
 }
 
+img{
+    width: 400px;
+    margin: -50px;
+    margin-bottom: -270px;
+    
+}
+a{
+    font-family: 'Red Hat Display', sans-serif;
+    color: limegreen;
+    font-size: 30px;
+}
 
 
 p {
     font-size: 50px;
     color: black;
-    font-family: "Arial", sans-serif;
+font-family: 'Press Start 2P', cursive;
 }
 
 .zoom {
     animation-name: zoom;
     animation-iteration-count: infinite;
-    animation-duration: 5s;
-    animation-direction: alternate;
+    animation-duration: 6s;
+    animation-direction: normal;
     animation-timing-function: ease-in-out;
 }
 
@@ -34,15 +48,11 @@ p {
     0% {
        margin-left: -2000px;
     }
-    50% {
-        margin-left: 2000px;
-    }
-    100% {
+    100%{
         color: red;
-        margin-left: -2000px;
+        margin-left: 4000px;
     }
 }
-
 .home{
     position: fixed;
     left: 10px;
