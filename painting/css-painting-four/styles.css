@@ -1,0 +1,25 @@
+html {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: lightgray;
+}
+
+#image {
+    display: block;
+    width: 300px;
+}
+
+/*Write new CSS*/
+#lightred {
+    background-color: indianred;
+    width: 300px;
+    height: 25px;
+}
+#blue {
+    background-color: midnightblue;
+    width: 300px;
+    height: 25px;
+}

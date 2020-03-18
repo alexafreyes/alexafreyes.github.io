@@ -1,0 +1,97 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  text-align: center;
+    background-image: url("../imgs/tortilla.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+        
+}
+a{
+    font-family: 'Red Hat Display', sans-serif;
+    color: limegreen;
+    font-size: 30px;
+}
+
+span{
+    font-family: 'Racing Sans One', cursive;
+}
+.sec-img{
+    width: 80px;
+    position: fixed;
+    top: 10px;
+    left:10px
+}
+
+p {
+    font-size: 4em;
+    color: black;
+font-family: 'Coda', cursive; 
+}
+
+.emphasis {
+    animation-name: emphasis;
+    animation-iteration-count: infinite;
+    animation-duration: .5s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+#rotate{
+      animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-duration: .5s;
+    animation-direction:alternate;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes emphasis {
+    0% {
+        color: transparent;
+        transform: rotate(-45deg)
+    }
+    100% {
+        color: limegreen;
+        font-size: 200px;
+        transform: rotate(45deg)
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg)
+    }
+    25%{
+        transform: rotate(45deg)
+    }
+    50%{
+        transform: rotate(-45deg)
+    }
+    75%{
+        transform: rotate(45deg)
+    }
+    100% {
+        transform: rotate(0deg)
+    }
+}
+
+
+.home{
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+}
+.next{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}

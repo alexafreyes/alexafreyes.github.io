@@ -1,0 +1,143 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: darkviolet;
+    background-image: url("../imgs/prison-cell.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lexend Deca', sans-serif;
+    color: yellow;
+    font-size: 80px;
+
+}
+
+.kitty {
+    width: 400px;
+    margin: 40px;
+    z-index: 0;
+    position: absolute;
+}
+
+.sad {
+    width: 400px;
+    margin: 40px;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+}
+
+.sad:hover {
+    opacity: 1;
+}
+
+/*
+.everything {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 250px;
+    left: 545px;
+    z-index: 3;
+}
+
+.everything:hover + .hat{
+    transform: translateY(300vh);
+*/
+}
+
+/*
+.everything:hover + .bars {
+    transform: translateY(500vh);
+}
+
+.everything:hover + .hat {
+    transform: translateY(500vh);
+}
+*/
+
+.hat {
+    z-index: 3;
+    width: 200px;
+    position: relative;
+    left: 40px;
+    top: -120px;
+    animation-name: hat;
+    animation-direction: alternate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.bars {
+    z-index: 4;
+    width: 2200px;
+    position: absolute;
+    animation-name: bars;
+    animation-direction: alternate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes hat {
+    0% {
+        transform: translateY(-300vh);
+    }
+
+    100% {
+        transform: translateY(0vh);
+    }
+}
+
+@keyframes bars {
+    0% {
+        transform: translateY(-300vh);
+    }
+
+    100% {
+        transform: translateY(0vh);
+    }
+}
+
+p {
+    position: fixed;
+    top: 40px;
+    font-size: 40px;
+    width: 800px;
+    text-align: center;
+}
+
+a {
+    font-family: 'Red Hat Display', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-shadow: none;
+}
+
+.text {
+    width: 800px;
+    text-align: center;
+    position: fixed;
+    top: 200px;
+    text-shadow: 3px 3px 1px black;
+}
+
+
+.home {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+}
+
+.next {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}

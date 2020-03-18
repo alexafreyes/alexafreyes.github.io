@@ -1,0 +1,119 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../imgs/brick.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-shadow: 3px 3px 1px black;
+}
+
+img {
+    width: 400px;
+    margin: -50px;
+    margin-bottom: -270px;
+}
+
+a {
+    font-family: 'Red Hat Display', sans-serif;
+    color: orange;
+    font-size: 30px;
+}
+
+.text {
+    width: 500px;
+    text-align: center;
+    position: fixed;
+    top: 30px;
+    z-index: 2;
+}
+
+
+p {
+    font-size: 50px;
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+}
+
+span:hover {
+    font-size: 80px;
+}
+
+
+.person {
+    position: absolute;
+    left: 200vh;
+    animation-name: person, person-two;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+}
+
+.poster {
+    width: 200px;
+    margin: -15vh;
+    position: absolute;
+    animation-name: poster;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+
+}
+
+
+@keyframes person {
+    0% {
+        margin-left: 200vh;
+    }
+
+    100% {
+        margin: 0vh;
+    }
+}
+
+@keyframes poster {
+    0% {
+        margin-left: -15vh;
+    }
+40%{
+        margin-left: -15vh;
+    }
+    100% {
+        color: red;
+        margin-left: -300vh;
+    }
+}
+
+@keyframes person-two {
+    0% {
+        margin-left: -15vh;
+    }
+
+    100% {
+        margin-left: -300vh;
+    }
+}
+
+.home {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+}
+
+.next {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}

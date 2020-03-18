@@ -1,0 +1,68 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../imgs/sloth.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    font-size: 80px;
+    
+}
+
+img {
+    width: 300px;
+    margin: -50px;
+    margin-bottom: -270px;
+    margin-left: -300px;
+    transform: rotate(30deg)
+}
+
+a {
+    font-family: 'Red Hat Display', sans-serif;
+    color: brown;
+    font-size: 30px;
+}
+
+.text {
+    width: 800px;
+    text-align: center;
+    position: fixed;
+    top: 200px;
+    text-shadow: 3px 3px 1px black;
+}
+
+
+.box {
+  height:600px;
+  width: 400px;
+}
+.home {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+}
+
+.next {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.Steve:hover + .nametag{
+  transform: translateY(-700px);
+}
+.nametag{
+    position: absolute;
+    bottom: 0px;
+    transform: translateY(300px);
+  transition: all 2s;
+}
