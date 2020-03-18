@@ -39,6 +39,8 @@ p {
 .center{
     display: block;
     margin: auto;
+    position: relative;
+    top:30px;
 }
 
 .second-p {
