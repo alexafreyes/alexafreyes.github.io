@@ -196,6 +196,14 @@ a:hover {
     opacity: 0.2;
 }
 
+.obj-study-poster:hover .middle {
+    opacity: 1;
+    width: 600px;
+}
+
+.obj-study-poster:hover .image {
+    opacity: 0.2;
+}
 
 
 .text {
