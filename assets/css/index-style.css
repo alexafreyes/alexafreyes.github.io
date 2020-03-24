@@ -215,3 +215,23 @@ a:hover {
     width: 200px;
     
 }
+
+.resize{
+    width:550px;
+    margin: 25px;
+}
+
+.bc{
+    width:160px;
+    margin: 35px;
+}
+
+.app{
+    width:570px;
+    margin: 25px;
+    margin-left: 90px;
+    margin-right: 10px;
+}
+.site{
+    width: 1200px;
+}
