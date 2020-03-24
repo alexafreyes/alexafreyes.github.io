@@ -132,10 +132,14 @@ a:hover {
 
 .item {
     width: 350px;
-    height: 350px;
-    padding: 20px;
+    height: 450px;
+    padding-left: 25px;
+    margin-top: 10px;
     align-content: center;
 
+}
+.selfie{
+    width: 500px;
 }
 
 .portfolio {
