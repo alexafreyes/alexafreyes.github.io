@@ -232,6 +232,15 @@ a:hover {
     margin: 25px;
 }
 
+.poster{
+    color: #580007;
+    font-size: 30px;
+    position: absolute;
+    top:-500px;
+    left: 200px;
+    width: 200px;
+}
+
 .bc{
     width:160px;
     margin: 35px;
