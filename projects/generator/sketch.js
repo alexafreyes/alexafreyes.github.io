@@ -1,7 +1,9 @@
 //variable to store the object
 let ball;
 let colorPicker;
+let colorPicker2;
 let col;
+let col2;
 let numOfBalls = 1;
 let balls = [];
 let slider;
@@ -10,10 +12,10 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   //create a new object using the class 
   angleMode(DEGREES);
-  colorPicker = createColorPicker('#ed225d');
+  colorPicker = createColorPicker('#66E1E8');
   col = colorPicker.color();
   colorPicker.position(0, 0);
-    slider = createSlider(5, 300, 50, 10);
+    slider = createSlider(5, 100, 15, 5);
   slider.position(width-165, 10);
   slider.style('width', '150px');
 
@@ -24,9 +26,7 @@ function setup() {
 }
 
 function draw() {
-  background(255, 30); //add opacity/trail
-
-
+ background(15, 30); //add opacity/trail
   //call the functions of the object
   for (let i = 0; i < balls.length; i++) {
     balls[i].move();
