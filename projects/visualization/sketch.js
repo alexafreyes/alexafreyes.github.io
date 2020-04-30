@@ -2,6 +2,7 @@ let data;
 let title;
 let f;
 let u;
+let menu0;
 let menu;
 let menu1;
 let menu2;
@@ -28,8 +29,12 @@ function setup() {
   // print(data);
 
   title = createP("Best Selling Game Consoles That Surpassed One Million Sales");
-  title.position(100, 25);
+  title.position(75, 25);
   title.addClass("title");
+  
+    menu0 = createP("15.5mil");
+  menu0.position(20,185);
+  menu0.addClass("menu0");
   
   menu = createP("Nintendo");
   menu.position(width-250,200);
@@ -95,7 +100,7 @@ function draw() {
     for (let i = 0; i < numRows; i++) {
 
       let y = height - 300;
- let x = 100 + (i * 27);
+ let x = 75 + (i * 27);
       let w = 15;
 
       let h = map(sales[i], 0, 155000000, 0, height / 2);
