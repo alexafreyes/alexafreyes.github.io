@@ -8,7 +8,8 @@ body {
 
 h1 {
     text-align: center;
-    font-family: 'Sail', cursive;
+    font-family: 'ivymode';
+    font-weight: 400;
     font-size: 80px;
     color: #af291e;
     margin: 35px;
@@ -21,8 +22,9 @@ h2 {
     margin-top: 35px;
     margin-bottom: 35px;
     margin-right: 35px;
-    font-family: 'Sail', cursive;
-    font-size: 50px;
+    font-family: 'ivymode';
+    font-weight: 400;
+    font-size: 36px;
     color: #af291e;
     max-width: 600px;
 
