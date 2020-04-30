@@ -1,9 +1,9 @@
 body {
-    background-color: #FFF5F6;
+    background-color: #0D0D0D;
     text-align: center;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 20px;
-    color: #580007;
+    color: #F2F2F2;
 }
 
 h1 {
@@ -11,7 +11,7 @@ h1 {
     font-family: 'ivymode';
     font-weight: 400;
     font-size: 80px;
-    color: #af291e;
+    color: #BFB0B0;
     margin: 35px;
     margin-bottom: 10px;
 }
@@ -25,7 +25,7 @@ h2 {
     font-family: 'ivymode';
     font-weight: 400;
     font-size: 38px;
-    color: #af291e;
+    color: #BFB0B0;
     max-width: 600px;
 
 }
@@ -78,17 +78,17 @@ li {
 
 /* unvisited link */
 a:link {
-    color: #af291e;
+    color: #BFB0B0;
     text-decoration: none
 }
 
 /* visited link */
 a:visited {
-    color: #af291e;
+    color: #BFB0B0;
 }
 
 a:hover {
-    color: #e5665a;
+    color: #F7D2DD;
 }
 
 .sec-img {
@@ -296,7 +296,7 @@ a:hover {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: #af291e;
+  color:#BFB0B0;
 text-decoration: none
   padding: 30px 10px;
   text-decoration: none;
@@ -304,7 +304,7 @@ text-decoration: none
 }
 
 .dropdown-content a:hover {
-    color: #e5665a;
+    color: #F7D2DD;
 }
 
 .dropdown:hover .dropdown-content {
