@@ -1,0 +1,88 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.title{
+  color:white;
+  font-size:40px;
+font-family: lores-21-serif;
+}
+
+.text{
+  color:white;
+  font-family: lores-12;
+  font-size: 12px;
+}
+
+.menu{
+  color:#E70009;
+    font-family: lores-12;
+  font-size: 20px;
+  
+}
+
+.menu1{
+  color:#0112FE;
+    font-family: lores-12;
+  font-size: 20px;
+}
+
+.menu2{
+  color:#FFB900;
+    font-family: lores-12;
+  font-size: 20px;
+}
+
+.menu3{
+  color:#8E45FF;
+    font-family: lores-12;
+  font-size: 20px;
+}
+
+.menu4{
+  color:#1EFF0F;
+    font-family: lores-12;
+  font-size: 20px;
+}
+
+.menu5{
+  color:#4DC5FF;
+    font-family: lores-12;
+  font-size: 20px;
+}
+
+.menu6{
+  color:#ed6d00;
+    font-family: lores-12;
+  font-size: 20px;
+}
+
+.menu7{
+  color:#e0218a;
+    font-family: lores-12;
+  font-size: 20px;
+}
+
+.menu8{
+  color:#969696;
+    font-family: lores-12;
+  font-size: 20px;
+}
+
+
+.menu9{
+  color:#FFFF00;
+    font-family: lores-12;
+  font-size: 20px;
+}
+
+
+.menu10{
+  color:white;
+    font-family: lores-12;
+  font-size: 20px;
+}
