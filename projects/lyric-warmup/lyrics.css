@@ -1,0 +1,102 @@
+body {
+    background-color: #A7C8F2;
+    font-family: "anonymous-pro", monospace;
+    ;
+    font-size: 14px;
+      color:#025951;
+}
+
+h1 {
+    font-family: "lust-script", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    padding:10px;
+    border-bottom: 5px;
+}
+h2{
+     font-family: "anonymous-pro", monospace;
+    ;
+    font-size: 16px;
+    text-align: center;
+    margin: 0px;
+    font-style: italic;
+}
+
+p{
+      max-width:800px;
+    margin-left:25%;
+    margin-right:25%;
+    padding:10px;
+    color:#027368;
+
+}
+
+.verseone {}
+
+.versetwo {}
+
+.versethree {}
+
+.verseone, .versetwo, .versethree{
+    text-align: left,
+}
+
+.chorus {
+    background-color: #809C9F;
+    text-align:right;
+         color: #A7C8F2;
+
+}
+
+.emphasis{
+     color: #AEEB96;
+}
+
+/*
+
+line-height:;
+line-height:;
+
+
+letter-spacing:;
+letter-spacing:;
+letter-spacing:;
+background-color:"#025951";
+background-color:"#048ABF";
+padding:20px;
+padding:30px;
+border:2px;
+border:5px;
+border:8px;
+border-radius:;
+border-radius:;
+z-index:1;
+z-index:2;
+z-index:3;
+background-image:;
+max-height
+
+min-height
+min-width
+@keyframes
+@keyframes
+@keyframes
+animation-name:;
+animation-name:;
+animation-name:;
+animation:;
+animation-duration:;
+animation-iteration-count:;
+:hover 
+::selection {}
+cursor:;
+cursor:;
+a:link {}
+a:visited {}
+a:active {}
+a:hover {}
+*/
