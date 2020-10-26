@@ -3,100 +3,114 @@ body {
     font-family: "anonymous-pro", monospace;
     ;
     font-size: 14px;
-      color:#025951;
+    color: #025951;
+    min-width: 300px;
+    cursor: url(https://cur.cursors-4u.net/cursors/cur-9/cur817.cur), auto;
+
 }
 
-h1 {
+h1, a:link, a:visited, a:active, a:visited {
     font-family: "lust-script", sans-serif;
     font-weight: 400;
     font-size: 40px;
     margin: 15px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
     text-align: center;
-    padding:10px;
-    border-bottom: 5px;
+    padding: 10px 10px 0px 10px;
+    border: 5px;
+    z-index: 1;
+    text-decoration: none;
+    
+
 }
-h2{
-     font-family: "anonymous-pro", monospace;
-    ;
-    font-size: 16px;
+
+h1:hover,a:hover  {
+    cursor: url(https://cur.cursors-4u.net/people/peo-8/peo954.ani), url(http://cur.cursors-4u.net/people/peo-8/peo954.png), auto;
+    
+}
+
+
+
+h2 {
     text-align: center;
     margin: 0px;
     font-style: italic;
+    padding: 10px 0px 15px 0px;
+    z-index: 2;
+    animation: fadeout 15s 1;
 }
 
-p{
-      max-width:800px;
-    margin-left:25%;
-    margin-right:25%;
-    padding:10px;
-    color:#027368;
-
+p {
+    max-width: 1200px;
+    margin: 0% 25% 0% 25%;
+    padding: 10px;
+    border: 8px #A7C8F2;
+    border-radius: 20px;
+    z-index: 3;
 }
 
-.verseone {}
+.verseone {
+    animation-name:fadein;
+    animation-duration:5s;
+    animation-iteration-count:1;
+}
 
-.versetwo {}
+.versetwo, .versethree {
+      animation-name:fadein;
+}
 
-.versethree {}
 
-.verseone, .versetwo, .versethree{
-    text-align: left,
+.verseone,
+.versetwo,
+.versethree {
+    text-align: left;
+    line-height: 125%;
+    letter-spacing: 1px;
 }
 
 .chorus {
     background-color: #809C9F;
-    text-align:right;
-         color: #A7C8F2;
-
+    text-align: right;
+    color: #A7C8F2;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    border: 2px #809C9F;
+    border-radius: 20px;
+    background-image: url(../../assets/imgs/cloud.png);
+    min-height: 150px;
+    max-height: 300px;
+    animation-name: fadeinchorus;
 }
 
-.emphasis{
-     color: #AEEB96;
+selection, .emphasis{
+    color: #AEEB96;
+    background-color: #025951;
 }
 
+@keyframes fadein {
+    from {opacity:0%;}
+    to {opacity: 100%;}
+}
+
+@keyframes fadein {
+    from {opacity:0%;}
+    to {opacity: 80%;}
+}
+
+@keyframes fadeout {
+    from {opacity:100%;}
+    to {opacity:0%;}
+}
 /*
 
-line-height:;
-line-height:;
 
 
-letter-spacing:;
-letter-spacing:;
-letter-spacing:;
-background-color:"#025951";
-background-color:"#048ABF";
-padding:20px;
-padding:30px;
-border:2px;
-border:5px;
-border:8px;
-border-radius:;
-border-radius:;
-z-index:1;
-z-index:2;
-z-index:3;
-background-image:;
-max-height
+@keyframes
 
-min-height
-min-width
-@keyframes
-@keyframes
-@keyframes
-animation-name:;
 animation-name:;
 animation-name:;
 animation:;
 animation-duration:;
 animation-iteration-count:;
-:hover 
-::selection {}
-cursor:;
-cursor:;
-a:link {}
-a:visited {}
-a:active {}
-a:hover {}
+
+{}
 */
