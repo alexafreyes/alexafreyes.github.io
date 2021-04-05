@@ -1,9 +1,22 @@
 body {
     background-color: white;
     text-align: center;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'runda', sans-serif;
+    font-weight: 200;
+    font-style: normal;
     font-size: 14px;
     color: black;
+}
+
+.container{
+       display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: left;
+    position: relative;
+    margin: 10px;
 }
 
 h1 {
@@ -11,20 +24,22 @@ h1 {
     font-family: 'swear-display', serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 160px;
-    color: #E964FD;
+    font-size: 200px;
+    color: black;
     margin: 35px;
     margin-bottom: 10px;
 }
 
 h2 {
     margin: auto;
-    font-family: 'runda', sans-serif;
-    font-weight: 200;
+    font-family: 'swear-display', serif;
+    font-weight: 400;
     font-style: normal;
-    font-size: 38px;
+    font-size: 80px;
     color: black;
-    max-width: 600px;
+    max-width: 800px;
+    margin: 25px auto;
+    line-height: .95;
 
 }
 
@@ -39,6 +54,7 @@ h2 {
 p {
     max-width: 400px;
     text-align: left;
+    letter-spacing: .5px;
 }
 
 .center {
@@ -77,17 +93,19 @@ li {
 
 /* unvisited link */
 a:link {
-    color: #BFB0B0;
+    color: #E964FD;
     text-decoration: none
 }
 
 /* visited link */
 a:visited {
-    color: #BFB0B0;
+    color: black;
 }
 
 a:hover {
-    color: #F7D2DD;
+    font-family: 'runda', sans-serif;
+font-weight: 400;
+font-style: italic;
 }
 
 .sec-img {
@@ -139,7 +157,7 @@ a:hover {
 .item {
     width: 600px;
     height: 450px;
-    padding-left: 25px;
+    \
     margin-top: 10px;
     align-content: center;
 
@@ -155,7 +173,7 @@ a:hover {
 }
 
 .portfolio {
-    width: 600px;
+    width: 450px;
 
 }
 
@@ -182,7 +200,7 @@ a:hover {
 
 .brand:hover .middle {
     opacity: 1;
-    width: 600px;
+    width: 450px;
 }
 
 .mall:hover .image {
@@ -191,12 +209,12 @@ a:hover {
 
 .mall:hover .middle {
     opacity: 1;
-    width: 600px;
+    width: 450px;
 }
 
 .double-tap:hover .middle {
     opacity: 1;
-    width: 600px;
+    width:450px;
 }
 
 .double-tap:hover .image {
@@ -205,7 +223,7 @@ a:hover {
 
 .elements:hover .middle {
     opacity: 1;
-    width: 600px;
+    width: 450px;
 }
 
 .elements:hover .image {
@@ -214,7 +232,7 @@ a:hover {
 
 .obj-study-poster:hover .middle {
     opacity: 1;
-    width: 600px;
+    width: 450px;
 }
 
 .obj-study-poster:hover .image {
@@ -222,17 +240,17 @@ a:hover {
 }
 
 .text {
-    color: #BFB0B0;
-    font-size: 30px;
+    color: black;
+    font-size: 16px;
     position: absolute;
-    top: -250px;
-    left: 200px;
+    top: -170px;
+    left: 120px;
     width: 200px;
 
 }
 
 .large {
-    color: #BFB0B0;
+    color: black;
     font-size: 30px;
     position: absolute;
     top: -250px;
@@ -299,16 +317,24 @@ a:hover {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: #BFB0B0;
+    color: #E964FD;
     text-decoration: none padding: 30px 10px;
     text-decoration: none;
     display: block;
 }
 
 .dropdown-content a:hover {
-    color: #F7D2DD;
+    color: #E964FD;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+
+.searchbox{
+     font-family: 'runda', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 16px;
 }
