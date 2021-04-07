@@ -6,6 +6,7 @@ body {
     font-style: normal;
     font-size: 14px;
     color: black;
+    
 }
 
 .container{
@@ -55,6 +56,8 @@ p {
     max-width: 400px;
     text-align: left;
     letter-spacing: .5px;
+    line-height: 1.3;
+    
 }
 
 .center {
@@ -81,14 +84,18 @@ nav {
 ul {
     /*   to get rid of the bullets in the list */
     list-style-type: none;
-    font-family: 'Red Hat Display', sans-serif;
+     font-family: 'runda', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  
 }
 
 li {
     /*    To have them go next to each other*/
     display: block;
     /*    to give space around them*/
-margin:10px;
+margin:20px;
+
 }
 
 /* unvisited link */
@@ -103,22 +110,40 @@ a:visited {
 }
 
 a:hover {
-    font-family: 'runda', sans-serif;
-font-weight: 400;
-font-style: italic;
+       color:black;
 }
+
+.nav-img{
+    width: 100px;
+    position: relative;
+    margin: 0px auto;
+    display: block;
+    z-index: 1;
+}
+
+.nav-img:hover{
+    width: 100px;
+    position: relative;
+    margin: 10px auto;
+    display: none;
+}
+
+.nav-img:hover + .sec-img{
+    display:block;
+}
+
+
 
 .sec-img {
-    width: 50px;
+    display: none;
+    width: 100px;
     position: relative;
-    margin: 10px;
+    margin: 0px auto;
+    z-index: 2;
 }
 
-.sec-img:hover {
-    width: 50px;
-    position: relative;
-    margin: 10px;
-    opacity: 1;
+.navvy + .sec.img:hover{
+    display: block;
 }
 
 
@@ -142,7 +167,7 @@ font-style: italic;
     align-content: space-between;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 10px;
+    margin: 20px;
     position: relative;
 
 }
@@ -310,20 +335,26 @@ font-style: italic;
     text-decoration: none padding: 30px 10px;
     text-decoration: none;
     display: block;
+    font-size: 20px;
 }
 
 .dropdown-content a:hover {
-    color: #E964FD;
+    color: black;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
+.dropdown:hover + .sec-img{
+    display:block;
+}
 
 .searchbox{
      font-family: 'runda', sans-serif;
     font-weight: 200;
     font-style: normal;
     font-size: 16px;
+    max-width: 900px; 
+    margin: 60px auto;
 }
