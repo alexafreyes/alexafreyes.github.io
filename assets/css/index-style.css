@@ -4,13 +4,13 @@ body {
     font-family: 'runda', sans-serif;
     font-weight: 200;
     font-style: normal;
-    font-size: 14px;
+    font-size: 16px;
     color: black;
-    
+
 }
 
-.container{
-       display: flex;
+.container {
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     align-content: space-between;
@@ -39,7 +39,8 @@ h2 {
     font-size: 80px;
     color: black;
     max-width: 900px;
-    margin: 25px auto;
+    margin: 0px auto;
+    padding-top: 20px;
     line-height: .95;
 
 }
@@ -53,11 +54,11 @@ h2 {
 }
 
 p {
-    max-width: 400px;
+    max-width: 500px;
     text-align: left;
-    letter-spacing: .5px;
+    letter-spacing: .7px;
     line-height: 1.3;
-    
+
 }
 
 .center {
@@ -76,25 +77,17 @@ img {
     margin: 5px;
 }
 
-nav {
-    text-align: center;
-
-}
-
 ul {
-    /*   to get rid of the bullets in the list */
     list-style-type: none;
-     font-family: 'runda', sans-serif;
+    font-family: 'runda', sans-serif;
     font-weight: 200;
     font-style: normal;
-  
+
 }
 
 li {
-    /*    To have them go next to each other*/
     display: block;
-    /*    to give space around them*/
-margin:20px;
+    margin: 25px;
 
 }
 
@@ -110,53 +103,42 @@ a:visited {
 }
 
 a:hover {
-       color:black;
+    color: black;
 }
 
-.nav-img{
-    width: 100px;
-    position: relative;
-    margin: 0px auto;
+.nav-img {
+    width: 70px;
+    position: fixed;
+    margin: 20px;
     display: block;
+    top: 0px;
+    left: 0px;
     z-index: 1;
 }
 
-.nav-img:hover{
-    width: 100px;
-    position: relative;
-    margin: 10px auto;
+.nav-img:hover {
+    width: 70px;
+    position: fixed;
+    margin: 20px;
+    top: 0px;
+    left: 0px;
     display: none;
 }
 
-.nav-img:hover + .sec-img{
-    display:block;
+.nav-img:hover + .sec-img {
+    display: block;
 }
 
 
 
 .sec-img {
     display: none;
-    width: 100px;
-    position: relative;
-    margin: 0px auto;
-    z-index: 2;
-}
-
-.navvy + .sec.img:hover{
-    display: block;
-}
-
-
-.home-img {
-    width: 200px;
-    text-align: center;
-    margin: 45px;
-}
-
-.sec-nav {
-    font-size: 16px;
+    width: 70px;
     position: fixed;
-    margin: -20px;
+    margin: 20px;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
 }
 
 
@@ -231,7 +213,7 @@ a:hover {
 
 .double-tap:hover .middle {
     opacity: 1;
-    width:450px;
+    width: 450px;
 }
 
 .double-tap:hover .image {
@@ -312,7 +294,7 @@ a:hover {
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-    position: relative;
+    position: fixed;
     display: block;
     z-index: 2;
 }
@@ -320,13 +302,15 @@ a:hover {
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
-    position: relative;
+    position: fixed;
     background-color: none;
     min-width: 160px;
-    /*  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
     z-index: 2;
-    text-align: center;
-    margin-left:-40px;
+    text-align: left;
+    margin-left: -35px;
+    margin-top: 100px;
+    top: 0px;
+    left: 0px;
 }
 
 /* Links inside the dropdown */
@@ -346,15 +330,20 @@ a:hover {
     display: block;
 }
 
-.dropdown:hover + .sec-img{
-    display:block;
+.dropdown:hover + .sec-img {
+    display: block;
 }
 
-.searchbox{
-     font-family: 'runda', sans-serif;
+.searchbox {
+    font-family: 'runda', sans-serif;
     font-weight: 200;
     font-style: normal;
     font-size: 16px;
-    max-width: 900px; 
+    max-width: 500px;
     margin: 60px auto;
+}
+
+.grow1 {
+    height: 80px;
+    padding-top: 200px;
 }
