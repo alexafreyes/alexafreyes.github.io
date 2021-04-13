@@ -4,7 +4,7 @@ body {
     font-family: 'runda', sans-serif;
     font-weight: 200;
     font-style: normal;
-    font-size: 16px;
+    font-size: 14px;
     color: black;
 
 }
@@ -54,9 +54,9 @@ h2 {
 }
 
 p {
-    max-width: 500px;
     text-align: left;
     letter-spacing: .7px;
+    line-height: 1.3;
     line-height: 1.3;
 
 }
@@ -154,6 +154,10 @@ a:hover {
 
 }
 
+.desc{
+   width: 400px;
+    margin:0px 30px 0px 10px;
+}
 .item {
     width: 600px;
     height: 450px;
@@ -172,8 +176,7 @@ a:hover {
 }
 
 .portfolio {
-    width: 450px;
-
+    width: 550px;
 }
 
 
@@ -242,8 +245,8 @@ a:hover {
     color: black;
     font-size: 16px;
     position: absolute;
-    top: -170px;
-    left: 120px;
+    top: -220px;
+    left: 180px;
     width: 200px;
 
 }
@@ -308,7 +311,7 @@ a:hover {
     z-index: 2;
     text-align: left;
     margin-left: -35px;
-    margin-top: 100px;
+    margin-top: 80px;
     top: 0px;
     left: 0px;
 }
