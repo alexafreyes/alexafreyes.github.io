@@ -4,7 +4,7 @@ body {
     font-family: 'runda', sans-serif;
     font-weight: 200;
     font-style: normal;
-    font-size: 14px;
+    font-size: 15px;
     color: black;
 
 }
@@ -155,7 +155,7 @@ a:hover {
 }
 
 .desc{
-   width: 55vw;
+   width: 50vw;
     margin:20px 30px 20px 10px;
 }
 .item {
@@ -173,8 +173,8 @@ a:hover {
 }
 
 .portfolio {
-    width: 70vw;
-    margin: 15px;
+    width: 80vw;
+    margin: 15px 30px;
 }
 
 
@@ -208,11 +208,11 @@ a:hover {
 
 .text {
     color: #E964FD;
-    font-size: 50px;
+    font-size: 100px;
     width: 60vw;
     position: absolute;
-    top:-740px;
-left:40px;
+    top:-850px;
+left:50px;
 
 }
 
