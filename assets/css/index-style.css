@@ -173,7 +173,7 @@ a:hover {
 }
 
 .portfolio {
-    width: 80vw;
+    width: 60vw;
     margin: 15px 30px;
 }
 
@@ -208,10 +208,10 @@ a:hover {
 
 .text {
     color: #E964FD;
-    font-size: 100px;
+    font-size: 90px;
     width: 60vw;
     position: absolute;
-    top:-850px;
+    top:-650px;
 left:50px;
 
 }
