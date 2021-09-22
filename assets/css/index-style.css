@@ -99,7 +99,7 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: black;
+    color: #E964FD;
 }
 
 a:hover {
@@ -154,10 +154,11 @@ a:hover {
 
 }
 
-.desc{
-   width: 50vw;
-    margin:20px 30px 20px 10px;
+.desc {
+    width: 50vw;
+    margin: 20px 30px 20px 10px;
 }
+
 .item {
     width: 600px;
     height: 450px;
@@ -178,6 +179,11 @@ a:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.portfolionosh {
+    width: 60vw;
+    margin: 30px;
+}
+
 
 .image {
     opacity: 1;
@@ -196,6 +202,8 @@ a:hover {
 
 }
 
+
+
 .gallery:hover .image {
     opacity: 0.06;
 }
@@ -203,7 +211,7 @@ a:hover {
 .gallery:hover .middle {
     opacity: 1;
     width: 450px;
-   
+
 }
 
 
@@ -212,8 +220,18 @@ a:hover {
     font-size: 90px;
     width: 60vw;
     position: absolute;
-    top:-650px;
-left:50px;
+    top: -650px;
+    left: 50px;
+
+}
+
+.texttop {
+    color: #E964FD;
+    font-size: 90px;
+    width: 60vw;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
 
 }
 
@@ -227,12 +245,12 @@ left:50px;
 }
 
 .resize {
-    width: 550px;
-    margin: 25px;
+    width: 600px;
+    margin: 25px auto;
 }
 
-.poster {
-    color: #BFB0B0;
+.poster:hover {
+    opacity: .2;
     font-size: 30px;
     position: absolute;
     top: -500px;
@@ -242,7 +260,7 @@ left:50px;
 
 .bc {
     width: 160px;
-    margin: 35px;
+    margin: 50px;
 }
 
 .app {
